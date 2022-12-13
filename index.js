@@ -1,5 +1,5 @@
 function formatTime(timestamp) {
-  let now = new Date(timestamp * 1000);
+  let now = new Date();
   let days = [
     "Sunday",
     "Monday",
