@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
 .container {
   min-width: fit-content;
   max-width: 850px;
-  margin: 30px auto;
+  margin: 35px auto;
   padding: auto;
-  font-family: "Lato", sans-serif;
+  font-family: "Merriweather", serif;
 }
+
 h1 {
   color: #5b446a;
   font-weight: bold;
@@ -12,21 +19,25 @@ h1 {
   padding-bottom: 5px;
   margin-top: 30px;
 }
+
 h2 {
   font-size: 34px;
   font-weight: bold;
   color: black;
 }
+
 h4 {
   font-weight: 700;
   color: black;
 }
+
 img {
   width: 60px;
   margin: 0 auto;
   background-color: #9890e3;
-  border-radius: 5pt;
+  border-radius: 7pt;
 }
+
 form {
   padding-top: 20px;
   padding-bottom: 0px;
@@ -34,9 +45,11 @@ form {
   margin-left: 10px;
   float: left;
 }
+
 .btn {
   padding: 6px 20px;
 }
+
 .table {
   text-align: center;
   margin: 0 auto;
@@ -53,16 +66,18 @@ form {
   );
   border-color: #9890e3;
   border-radius: 12pt;
-  max-width: 700px;
+  max-width: 750px;
   margin-bottom: 20px;
 }
+
 .Temperature {
   position: relative;
   color: #5b446a;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 62px;
   vertical-align: sub;
 }
+
 .tempUnits {
   position: relative;
   font-weight: 400px;
@@ -70,18 +85,21 @@ form {
   color: #5b446a;
   vertical-align: super;
 }
+
 #celsius-link,
 #fahrenheit-link {
   text-decoration: none;
   color: #5b446a;
 }
+
 #searchButton {
-  margin-left: 410px;
+  margin-left: 420px;
   border-radius: 6pt;
   font-size: 20px;
   background-color: #5b446a;
   position: absolute;
 }
+
 #inputCity {
   min-width: 300pt;
   height: 44px;
@@ -89,12 +107,13 @@ form {
   font-size: 16px;
   border-radius: 4pt;
 }
+
 #currentButton {
   background-color: #4c9173;
   border-radius: 6pt;
   font-size: 20px;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 130px;
   position: absolute;
 }
 
@@ -102,6 +121,8 @@ form {
   width: 83px;
   background-color: #9890e3;
   border-radius: 5pt;
+  display: flex;
+  justify-content: flex-end;
 }
 .weather-forecast-date,
 .weather-forecast-temperatures {
