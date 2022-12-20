@@ -3,6 +3,7 @@
 body {
   margin: 0;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  overflow-y: hidden;
 }
 .container {
   min-width: fit-content;
@@ -98,6 +99,11 @@ form {
   font-size: 20px;
   background-color: #5b446a;
   position: absolute;
+  transition-duration: 0.4s;
+}
+
+#searchButton:hover {
+  background-color: #846698;
 }
 
 #inputCity {
@@ -113,8 +119,13 @@ form {
   border-radius: 6pt;
   font-size: 20px;
   margin-top: 20px;
-  margin-left: 130px;
+  margin-left: 115px;
   position: absolute;
+  transition-duration: 0.4s;
+}
+
+#currentButton:hover {
+  background-color: #72c4a0;
 }
 
 #icon {
